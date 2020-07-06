@@ -12,7 +12,7 @@ region_name= pd.read_csv(r'D:\Bureau\Formation Simplon\immobilier_paris\données
 # Nombre de ville trouve dans dataframe
 commune= result_contat.groupby(['Code departement','Code postal','Commune']).size().reset_index(name='counts').sort_values( by='counts',ascending = False)
 
-# NOMBRE DE COMMUNE EXISTANT DANS MES DONNEES
+# NOMBRE DE COMMUNE EXISTANT DANS MES DONNEES ---
 len(commune)
 # Séléction de certaine colonnes
 ville =commune[['Code departement','Code postal','Commune']]
