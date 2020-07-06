@@ -1,8 +1,8 @@
 # Étude du marché immobilier en France
 
-##Requirements
+## Requirements
 Adding the requirements
 
-##Installation
+## Installation
 Explains the steps 
 etc..
